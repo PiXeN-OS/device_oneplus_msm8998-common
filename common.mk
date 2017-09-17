@@ -435,7 +435,7 @@ PRODUCT_PACKAGES += \
 
 # USB
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service \
+    android.hardware.usb@1.0-service.oneplus5 \
     com.android.future.usb.accessory
 
 # Vibrator
