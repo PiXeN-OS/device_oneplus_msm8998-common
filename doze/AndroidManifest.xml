@@ -16,7 +16,11 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     package="com.cyanogenmod.settings.doze"
+=======
+    package="org.lineageos.settings.doze"
+>>>>>>> 863e66e... msm8998: add Doze package back
     android:versionCode="1"
     android:versionName="1.0"
     android:sharedUserId="android.uid.system">
@@ -42,7 +46,11 @@
         </receiver>
 
         <service android:name=".DozeService"
+<<<<<<< HEAD
                  android:permission="OneplusDozeService">
+=======
+                 android:permission="DozeService">
+>>>>>>> 863e66e... msm8998: add Doze package back
         </service>
 
         <activity
@@ -50,7 +58,11 @@
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.Main">
             <intent-filter>
+<<<<<<< HEAD
                 <action android:name="org.cyanogenmod.settings.device.DOZE_SETTINGS" />
+=======
+                <action android:name="org.lineageos.settings.device.DOZE_SETTINGS" />
+>>>>>>> 863e66e... msm8998: add Doze package back
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

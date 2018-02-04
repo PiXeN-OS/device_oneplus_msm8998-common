@@ -3,6 +3,10 @@
 }
 
 -keep class ** extends android.support.v14.preference.PreferenceFragment
+<<<<<<< HEAD
 -keep class com.cyanogenmod.settings.doze.* {
+=======
+-keep class org.lineageos.settings.doze.* {
+>>>>>>> 863e66e... msm8998: add Doze package back
   *;
 }

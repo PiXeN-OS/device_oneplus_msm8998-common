@@ -33,7 +33,11 @@
         android:maxLines="2"
         android:ellipsize="end"
         android:textAppearance="@android:style/TextAppearance.Material.Title"
+<<<<<<< HEAD
         android:textColor="?android:attr/textColorPrimaryInverse"
+=======
+        android:textColor="?android:attr/textColorPrimary"
+>>>>>>> 863e66e... msm8998: add Doze package back
         android:textAlignment="viewStart" />
 
     <Switch
@@ -42,6 +46,10 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:background="@null"
+<<<<<<< HEAD
         android:theme="@style/ThemeOverlay.SwitchBar" />
+=======
+        android:theme="@style/Theme.Main.SwitchBar" />
+>>>>>>> 863e66e... msm8998: add Doze package back
 
 </LinearLayout>
