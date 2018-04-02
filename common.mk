@@ -395,12 +395,11 @@ PRODUCT_PACKAGES += \
     libxml2 \
     libprotobuf-cpp-full
 
-PRODUCT_BOOT_JARS += \
-    qcrilhook
 
 # List Of APNS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/common/etc/apns-full-conf.xml:system/etc/apns-conf.xml
+
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
