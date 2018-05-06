@@ -207,6 +207,7 @@ ro.vendor.sensors.multishake=true
 
 # Timeservice
 persist.timed.enable=true
+persist.backup.ntpServer="0.pool.ntp.org"
 
 # Touch optimizations
 persist.vendor.qti.inputopts.enable=true
