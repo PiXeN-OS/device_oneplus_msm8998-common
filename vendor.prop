@@ -18,7 +18,6 @@ ro.dirac.acs.storeSettings=1
 ro.dirac.ignore_error=1
 
 # Audio new
-vendor.audio_hal.period_size=192
 ro.vendor.audio.sdk.fluencetype=fluencepro
 persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicerec=true
@@ -38,7 +37,7 @@ vendor.audio.offload.gapless.enabled=true
 vendor.audio.safx.pbe.enabled=true
 vendor.audio.parser.ip.buffer.size=0
 vendor.audio.flac.sw.decoder.24bit=true
-persist.vendor.bt.a2dp_offload_cap=false
+persist.vendor.bt.a2dp_offload_cap=sbc-aptx-aptxhd-ldac-aac
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
 vendor.audio.hw.aac.encoder=true
@@ -53,11 +52,13 @@ ro.cutoff_voltage_mv=3200
 
 # Bluetooth
 bt.max.hfpclient.connections=1
-persist.bt.a2dp_offload_cap=false
+persist.bt.a2dp_offload_cap=sbc-aptx-aptxhd-ldac-aac
 qcom.bluetooth.soc=cherokee
 ro.bluetooth.a4wp=false
-ro.bluetooth.emb_wp_mode=true
-ro.bluetooth.wipower=true
+ro.bluetooth.emb_wp_mode=false
+ro.bluetooth.wipower=false
+persist.bt.a2dp.aac_disable=true
+persist.vendor.bt.enable.splita2dp=false
 
 # Cabl
 ro.qualcomm.cabl=0
