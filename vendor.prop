@@ -86,7 +86,7 @@ ro.max.fling_velocity=20000
 ro.frp.pst=/dev/block/bootdevice/by-name/config
 
 # Graphics
-ro.sf.lcd_density=420
+ro.sf.lcd_density=410
 debug.sf.hw=1
 debug.gralloc.enable_fb_ubwc=1
 debug.gralloc.gfx_ubwc_disable=0
