@@ -103,7 +103,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_CHARACTERISTICS := nosdcard
 
 # ARCore
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.calibration_cad=/system/etc/calibration_cad.xml
 
@@ -400,6 +399,7 @@ PRODUCT_BOOT_JARS += \
     qcrilhook \
     telephony-ext
 
+# List Of APNS
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/common/etc/apns-full-conf.xml:system/etc/apns-conf.xml
 
