@@ -22,6 +22,9 @@
 /dev/dash                                                       u:object_r:dash_device:s0
 /sbin/dashd                                                     u:object_r:dashd_exec:s0
 
+#Display
+/sys/devices/virtual/graphics/fb0/srgb                          u:object_r:sysfs_graphics:s0
+
 # Fingerprint
 /dev/fpc1020                                                    u:object_r:fingerprint_device:s0
 /dev/goodix_fp                                                  u:object_r:fingerprint_device:s0
