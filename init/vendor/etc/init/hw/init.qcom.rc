@@ -193,6 +193,8 @@ on boot
     mkdir /persist/display 0770 system graphics
     chown system graphics /sys/class/graphics/fb0/srgb
     chmod 0664 /sys/class/graphics/fb0/srgb
+    chown system graphics /sys/class/graphics/fb0/dci_p3
+    chmod 0664 /sys/class/graphics/fb0/dci_p3
 
     # Create vpp directory
     mkdir /persist/vpp 0770 media media
