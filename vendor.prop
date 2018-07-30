@@ -109,6 +109,12 @@ persist.hwc.enable_vds=1
 debug.sf.latch_unsignaled=1
 vendor.display.enable_default_color_mode=0
 
+
+# GPS
+persist.gps.qc_nlp_in_use=1
+#persist.loc.nlp_name=com.qualcomm.location
+ro.gps.agps_provider=1
+
 # IZat OptInApp overlay enable
 persist.vendor.overlay.izat.optin=rro
 
