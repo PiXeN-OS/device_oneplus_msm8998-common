@@ -257,4 +257,4 @@ persist.dbg.wfc_avail_ovr=1
 wifi.interface=wlan0
 
 # Vendor patch level
-ro.vendor.patch.level=OxygenOS_5.1.3
+ro.vendor.patch.level=OxygenOS_5.1.4
