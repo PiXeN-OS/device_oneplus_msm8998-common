@@ -554,7 +554,6 @@ service start_hci_filter /system/vendor/bin/wcnss_filter
     class late_start
     user bluetooth
     group bluetooth diag system
-    seclabel u:r:wcnss_filter:s0
     disabled
 
 on property:wc_transport.start_root=true
@@ -567,7 +566,6 @@ service hci_filter_root /system/vendor/bin/wcnss_filter
     class late_start
     user bluetooth
     group bluetooth diag system
-    seclabel u:r:wcnss_filter:s0
     disabled
 
 service bt-dun /system/bin/dun-server /dev/smd7 /dev/rfcomm0
@@ -984,7 +982,6 @@ service profiler_daemon /system/bin/profiler_daemon
 service charger /charger
     class charger
     group system graphics
-    seclabel u:r:charger:s0
 
 service ssr_diag /system/vendor/bin/ssr_diag
     class late_start
