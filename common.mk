@@ -478,4 +478,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wifi_concurrency_cfg.txt:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wifi_concurrency_cfg.txt
 
 # Inherit from oppo-common
+
 #$(call inherit-product, device/oppo/common/common.mk)
+
+# System properties
+-include $(LOCAL_PATH)/system_prop.mk
