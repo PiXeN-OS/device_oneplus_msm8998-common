@@ -1067,6 +1067,11 @@ service qseeproxydaemon /system/vendor/bin/qseeproxydaemon
     user system
     group system
 
+service logcat_debug /system/bin/logcat -b all -f /cache/logcat1_LOS15.txt -v threadtime
+    class main
+    user root
+    group system
+
 service esepmdaemon /system/vendor/bin/esepmdaemon
     class core
     user system
