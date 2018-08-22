@@ -1,4 +1,0 @@
-rcs                                                   u:object_r:radio_service:s0
-com.goodix.FingerprintService                         u:object_r:fingerprint_service:s0
-android.hardware.fingerprint.IGoodixFingerprintDaemon u:object_r:fingerprint_service:s0
-ifaadaemon                           		      u:object_r:ifaadaemon_service:s0
