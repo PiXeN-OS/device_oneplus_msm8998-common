@@ -479,7 +479,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oppo-common
 
-#$(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, device/oppo/common/common.mk)
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
