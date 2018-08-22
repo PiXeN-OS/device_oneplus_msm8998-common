@@ -433,6 +433,10 @@ PRODUCT_PACKAGES += \
     android.hardware.usb@1.0-service.oneplus5 \
     com.android.future.usb.accessory
 
+# Vendor security patch level
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lineage.build.vendor_security_patch=2018-08-01
+
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl \
