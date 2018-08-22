@@ -10,7 +10,7 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
-LOCAL_SDK_VERSION := current 
+LOCAL_PRIVATE_PLATFORM_APIS := true
 include $(BUILD_PACKAGE)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))

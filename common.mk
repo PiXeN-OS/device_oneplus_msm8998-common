@@ -209,8 +209,8 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.0_vendor
 
 # Doze
-#PRODUCT_PACKAGES += \
-#   OneplusThreeDoze
+PRODUCT_PACKAGES += \
+   OneplusThreeDoze
 
 # DRM
 PRODUCT_PACKAGES += \
