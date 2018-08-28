@@ -393,16 +393,12 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
-    ims-ext-common \
     librmnetctl \
     libxml2 \
-    libprotobuf-cpp-full \
-    ims-ext-common \
-    telephony-ext
+    libprotobuf-cpp-full
 
 PRODUCT_BOOT_JARS += \
-    qcrilhook \
-    telephony-ext
+    qcrilhook
 
 # List Of APNS
 PRODUCT_COPY_FILES += \
