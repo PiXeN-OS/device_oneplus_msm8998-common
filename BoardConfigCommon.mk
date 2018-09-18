@@ -84,7 +84,7 @@ TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8998
 TARGET_KERNEL_CONFIG := redflare-custom_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := 6.0.2
+TARGET_KERNEL_CLANG_VERSION := 7.0.2
 TARGET_USE_SDCLANG := true
 
 # Enable real time lockscreen charging current values
