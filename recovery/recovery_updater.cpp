@@ -169,11 +169,18 @@ Value * VerifyModemFn(const char *name, State *state, const std::vector<std::uni
     struct tm tm1, tm2;
 
     ret = get_modem_version(current_modem_version, MODEM_VER_BUF_LEN);
+    if (ret) {
+        return ErrorAbort(state, kVendorFailure,
+                "%s() failed to read current MODEM build time-stamp: %d", name, ret);
+    }
 
     memset(&tm1, 0, sizeof(tm));
     strptime(current_modem_version, "%Y-%m-%d %H:%M:%S", &tm1);
 
     std::vector<std::string> modem_version;
+    if (!ReadArgs(state, argv, &modem_version)) {
+        return ErrorAbort(state, kArgsParsingFailure, "%s() error parsing arguments", name);
+    }
 
     ret = 0;
     for (i = 0; i < argv.size(); i++) {
