@@ -444,7 +444,8 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package
+    vndk_package \
+    libutilscallstack.vndk-sp
 
 # VNDK-SP
 PRODUCT_PACKAGES += \
